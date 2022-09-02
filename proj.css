@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+.nav{
+    /* background-color: red; */
+    overflow: hidden;
+}
+.nav nav{
+    float: right;
+    margin-top: 23px;
+    margin-right: 100px;
+    height: 50px;
+}
+.nav nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding:8px 20px;
+    /* padding-bottom: 5px; */
+    margin:0 10px;
+    border-radius: 5px;
+    background-color: rgba(157, 173, 157, 0.781);
+}
+#proj{
+    background-color: rgba(69, 75, 69, 0.781);
+    color: whitesmoke;
+}
+#contact{
+    background-color: rgba(14, 116, 141, 0.842);
+    color: whitesmoke;
+}
+.nav nav a:hover{
+    background-color: rgba(5, 75, 28, 0.842);
+    color: whitesmoke;
+}
+.info h1{
+    text-align: center;
+    font-size: 35px;
+    width:400px;
+    margin:auto;
+    margin-left: 42%;
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding:8px 15px;
+    background-color: rgba(14, 116, 141, 0.842);
+    color: whitesmoke;
+    border-radius: 7px;
+}
+.project a{
+text-decoration: none;
+}
+.project a{
+    margin-top: 40px;
+    padding: 10px 30px;
+    margin-right: 70%;
+    border: 1px solid black;
+    border-left: 20px solid black;
+    margin-left: 5%;
+    font-size: 25px;
+    background-color: rgba(143, 60, 12, 0.836);
+    color: whitesmoke;
+    border-radius: 7px;
+}

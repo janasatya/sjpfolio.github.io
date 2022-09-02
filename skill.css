@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: yellow;
+}
+
+.nav{
+    /* background-color: red; */
+    overflow: hidden;
+}
+.nav nav{
+    float: right;
+    margin-top: 23px;
+    margin-right: 100px;
+    height: 50px;
+}
+.nav nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding:8px 20px;
+    /* padding-bottom: 5px; */
+    margin:0 10px;
+    border-radius: 5px;
+    background-color: rgba(157, 173, 157, 0.781);
+}
+#skill{
+    background-color: rgba(69, 75, 69, 0.781);
+    color: whitesmoke;
+}
+#contact{
+    background-color: rgba(14, 116, 141, 0.842);
+    color: whitesmoke;
+}
+.nav nav a:hover{
+    background-color: rgba(5, 75, 28, 0.842);
+    color: whitesmoke;
+}
+.info h1{
+    text-align: center;
+    font-size: 35px;
+    width:200px;
+    margin:auto;
+    margin-left: 42%;
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding:8px 15px;
+    background-color: rgba(14, 116, 141, 0.842);
+    color: whitesmoke;
+    border-radius: 7px;
+}
+.contain{
+    display: grid;
+    grid-template-rows: repeat(auto-fill);
+    grid-auto-rows: 250px;
+    grid-gap: 10px;
+    /* background-color: rgb(0, 0, 0); */
+}  
+.item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.img1{
+    width:120px;
+    position: relative;
+    top:26.5%;
+    left: 70%;
+}
+
+.child1 h1{
+    display: inline-block;
+    margin-top: 100px;
+    padding: 10px 22px;
+    background-color: rgba(15, 111, 155, 0.945);
+    color: whitesmoke;
+    border-radius: 7px;
+    border: 1px solid grey;
+}
+.img2{
+    width:120px;
+    position:relative;
+    top:26.5%;
+    left: 4%;
+}
+.child2 h1{
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 64%;
+    padding: 10px 22px;
+    background-color: rgba(15, 111, 155, 0.945);
+    color: whitesmoke;
+    border-radius: 7px;
+    border: 1px solid grey;
+}
+#child6 h1{
+    margin-top:105px;
+    margin-left: 3%;
+    background-color: rgb(227, 76, 38);
+}
+#child7 h1{
+    margin-left: 71%;
+    background-color: rgb(18, 117, 175);
+}
+#child10 h1{
+    background-color: rgb(255 208 32 / 89%);
+    color: black;
+}
+#child11 h1{
+    margin-left: 68%;
+    background-color: black;
+}
+#child13 img{
+    width:150px;
+}
+#child14 h1{
+    background-color: yellow;
+    color: rgb(18, 117, 175);
+    border:2px solid rgb(18, 117, 175);
+    margin-top: 8.5%;
+}
